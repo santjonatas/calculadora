@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px 0px 0px;
+    background-color: rgb(243, 243, 243);
+}
+
+#calculadora{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgb(19, 19, 19);
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 98px;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+#res{
+    margin-top: 35px;
+    background-color: antiquewhite;
+    width: 320px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 502px;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+#area-botoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 5px;
+    width: 335px;
+    height: 415px;
+    background-color: rgba(165, 42, 42, 0);
+}
+
+.botao{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-maior-h{
+    width: 165px;
+    height: 80px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-maior-v{
+    width: 80px;
+    height: 165px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-baixo{
+    display: flex;
+    gap: 5px;
+    width: 335px;
+    height: 165px;
+    background-color: rgba(220, 20, 60, 0);
+}
+
+#num{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+#igual{
+    width: 80px;
+    height: 160px;
+}
