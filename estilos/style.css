@@ -31,6 +31,9 @@ body{
     border-radius: 5px;
     border: solid 2px;
     border-color: rgb(204, 204, 204);
+
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .botoes{
@@ -49,7 +52,7 @@ body{
     
     gap: 5px;
     width: 335px;
-    height: 420px;
+    height: 420fpx;
     background-color: rgba(165, 42, 42, 0);
 }
 
@@ -64,9 +67,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0px;
+}
+
+.op{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
 }
 
 .botao-maior-h{
+    
+}
+
+#apagar{
     width: 165px;
     height: 80px;
     background-color: rgb(46, 46, 63);
@@ -77,9 +99,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0px;
+}
+
+#n0{
+    width: 165px;
+    height: 80px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
 }
 
 .botao-maior-v{
+    
+}
+
+#igual{
     width: 80px;
     height: 165px;
     background-color: rgb(46, 46, 63);
@@ -90,6 +131,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0px;
 }
 
 #div-baixo{
@@ -110,4 +152,18 @@ body{
 #igual{
     width: 80px;
     height: 165px;
+}
+
+#ponto{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(46, 46, 63);
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
 }

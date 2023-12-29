@@ -7,71 +7,54 @@
     <link rel="stylesheet" href="./estilos/style.css">
 </head>
 <body>
-    <div id="calculadora">
+    <form id="calculadora">
         <div class="result">
-            <div id="res"></div>
+            <output type="text" id="res">
         </div>
         <div class="botoes">
             <div id="area-botoes">
-                <nav  class="botao-maior-h">
-                    <
-                </nav>
-                <nav class="botao">
-                    /
-                </nav>
-                <nav class="botao">
-                    *
-                </nav>
-                <nav class="botao">
-                    7
-                </nav>
-                <nav class="botao">
-                    8
-                </nav>
-                <nav class="botao">
-                    9
-                </nav>
-                <nav class="botao">
-                    -
-                </nav>
-                <nav class="botao">
-                    4
-                </nav>
-                <nav class="botao">
-                    5
-                </nav>
-                <nav class="botao">
-                    6
-                </nav>
-                <nav class="botao">
-                   + 
-                </nav>
+                <button id="apagar" class="botao" onclick="clean()">C</button>
+
+                <button id="divisao" class="botao" onclick="digitar('/')">/</button>
+
+                <button id="multiplicacao" class="botao" onclick="digitar('*')">*</button>
+
+                <button id="n7" class="botao" onclick="digitar(7)">7</button>
+
+                <button id="n8" class="botao" onclick="digitar(8)">8</button>
+
+                <button id="n9" class="botao" onclick="digitar(9)">9</button>
+
+                <button id="subtracao" class="botao" onclick="digitar('-')">-</button>
+
+                <button id="n4" class="botao" onclick="digitar(4)">4</button>
+
+                <button id="n5" class="botao" onclick="digitar(5)">5</button>
+
+                <button id="n6" class="botao" onclick="digitar(6)">6</button>
+
+                <button id="adicao" class="botao" onclick="digitar('+')">+</button>
+
                 <div id="div-baixo">
                     <div id="num">
-                        <nav class="botao">
-                            1
-                        </nav>
-                        <nav class="botao">
-                            2
-                        </nav>
-                        <nav class="botao">
-                            3
-                        </nav>
-                        <nav class="botao-maior-h">
-                            0
-                        </nav>
-                        <nav class="botao">
-                            .
-                        </nav>
+                        <button id="n1" class="botao" onclick="digitar(1)">1</button>
+
+                        <button id="n2" class="botao" onclick="digitar(2)">2</button>
+
+                        <button id="n3" class="botao" onclick="digitar(3)">3</button>
+
+                        <button id="n0" class="botao" onclick="digitar(0)">0</button>
+
+                        <button id="ponto" class="botao" onclick="digitar('.')">.</button>
+
                     </div>
                     <div id="igual">
-                        <nav class="botao-maior-v">
-                            =
-                        </nav>
+                        <button id="igual" class="botao" onclick="resposta()">=</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
+    <script src="/script.js"></script>
 </body>
 </html>
