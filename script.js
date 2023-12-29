@@ -12,19 +12,16 @@ function digitar(...n){
 
 function clean(){
     event.preventDefault()
-
     restultado.innerHTML = ''
 }
 
 function resposta(){
     event.preventDefault()
-
     restultado.innerHTML = eval(restultado.innerHTML)
 }
 
 let restultado = document.getElementById('res')
 let igual = document.getElementById('igual')
-
 const botoes = document.querySelectorAll('.botao')
 
 Array.from(botoes).forEach(function(evt){
